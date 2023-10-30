@@ -1,0 +1,117 @@
+/*colors and fonts */
+
+body {
+	background-color:whitesmoke;
+	color: gray;
+    font-family:Times;
+}
+
+h1,h2 { 
+	font-family:Garamond;
+ }
+
+h1{
+
+color: black;
+font-weight:150;
+letter-spacing: 1px;
+font-size: 35px;
+}
+
+
+h2 {
+
+color: black;
+font-size: 25px;
+font-weight: lighter;
+}
+
+
+a{
+	text-decoration:none;
+	color:gray;
+}
+a:hover{
+	color:blue;
+}
+
+
+
+/*custom design with class*/
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+.card-white {
+	background-color: white;
+	padding: 50px;
+	box-shadow: 0pw 10px 50px gray;
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle{
+	border-radius: 50%;
+	}
+
+.btn-blue{
+	background-color: lightgray;
+	color: whitesmoke;
+	padding: 10px 20px;
+	border-radius: 4px;
+}
+.btn-blue{
+	background-color: whitesmoke;
+	color: lightgray;
+}
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;	
+	padding: 10px;
+}
+
+
+.list-inline i {
+	font-size: 35px;
+	colof:rgb(230, 230, 230);
+}
+
+.list-inline i:hover {
+	color:black;
+}
+
+/*Design adjustments using id */
+
+#introdution p {
+	margin-bottom: 30px;
+}
+
+
+
